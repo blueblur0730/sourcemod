@@ -1,11 +1,7 @@
 name: Update translation project
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'translations/**'
   workflow_dispatch:
+
 jobs:
   update_translations:
     runs-on: ubuntu-latest
